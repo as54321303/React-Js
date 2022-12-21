@@ -1,11 +1,15 @@
-function User()
+import react,{Component} from 'react';
+class User extends Component
 {
-    return(
-        <div>
-        <h1>User Component</h1>
-        <h1>Hello Ayush</h1>
-        </div>
-    )
+    render()
+    {
+        return(
+            <div>
+            <h1>Hello from User</h1>
+            <h1>Ayush</h1>
+            </div>
+        )
+    }
 }
 
 
